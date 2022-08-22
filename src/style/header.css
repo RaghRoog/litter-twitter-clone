@@ -1,0 +1,43 @@
+.header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.623);
+    display: flex;
+    align-items: center;
+}
+.page-indicator{
+    margin-left: 35vw;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3rem;
+}
+form{
+    position: fixed;
+    top: 5px;
+    right: 16.2vw;
+    display: flex;
+    background-color: rgba(238, 238, 238, 0.596);
+    border-radius: 50px;
+    height: 5vh;
+    width: 16vw;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    height: 90%;
+    width: 80%;
+    border: 0;
+    background-color: rgba(238, 238, 238, 0.596);
+    padding: 6px;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+.search:focus{
+    outline: none;
+}
+.magnify{
+    height: 20px;
+    width: 20px;
+}

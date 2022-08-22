@@ -1,0 +1,92 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+.left{
+    grid-column: 1/2;
+    height: 100vh;
+    width: 100%;
+    background-image: url('/public/imgs/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-logo{
+    background-image: url('/public/imgs/logo.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    min-width: 400px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(206deg) brightness(101%) contrast(103%);
+}
+.heading-container{
+    margin-top: 10vh;
+    margin-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 38vh;
+}
+.right-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 5vh;
+}
+.right-text{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+.logo{
+    background-image: url('/public/imgs/logo.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 48px;
+    min-width: 48px;
+    max-height: 48px;
+    max-width: 48px;
+    filter: invert(41%) sepia(81%) saturate(4483%) hue-rotate(137deg) brightness(93%) contrast(91%);
+    margin-bottom: 10vh;
+}
+.sign-up{
+    margin-top: 50px;
+    margin-left: 5vh;
+    width: 260px;
+    height: 4%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    transition: .2s;
+    padding: 10px;
+}
+.sign-up:hover{
+    background-color: rgb(233, 233, 233);
+}
+.sign-logo{
+    background-image: url('/public/imgs/google-logo.png');
+    height: 16px;
+    width: 16px;
+    background-position: center;
+    background-size: cover;
+}
+.home-footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
